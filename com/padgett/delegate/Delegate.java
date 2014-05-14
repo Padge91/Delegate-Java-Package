@@ -75,13 +75,13 @@ public class Delegate {
 	}
 	
 	//equal method to set the method to call to a delegate
-	public void equal(Delegate d) throws DelegateException {
+	public void setTo(Delegate d) throws DelegateException {
 		removeAll();
 		add(d);
 	}
 	
 	//equal method to set method to call a object
-	public void equal(Object o, String s) throws DelegateException {
+	public void setTo(Object o, String s) throws DelegateException {
 		removeAll();
 		add(o, s);
 	}
